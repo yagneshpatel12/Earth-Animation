@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#color{
+    background-color: yellow;
+}
+#teda{
+    transform: rotate(90deg);
+    display: inline-block;
+    font-size: 3em;
+    width: 300px;
+    padding-top: 40px;
+    padding-left: 40px;
+    color: rgb(150, 148, 148);
+}
+.firstpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+.firstpage2{
+    height: 100vh;
+    color: white;
+    background-color: yellow;
+}
+.mainani{
+    animation-name: ripple;
+    animation-duration: 2s;
+    animation-delay:2s;
+    animation-timing-function: cubic-bezier(.65,0,.34,1);
+    z-index: -1;
+
+}
+
+/* Ripple effect */
+.ripple {
+    background-position: center;
+    transition: background 2s;
+    background: #080808 radial-gradient(circle, transparent 1%, #000000 1%) center/15000%;
+    background-color: #000000;
+    background-size: 100%;
+  }  
+  .ripple1{
+    background-position: center;
+    transition: background 2s;
+    background: #252525 radial-gradient(circle, transparent 1%, #000000 1%) center/15000%;
+  }
+
+.circlebox{
+    transform: rotate(-90deg);
+}
+.circle_text{
+    position: absolute;
+    top: 260px;
+    left: 620px;
+    font-size: 30px;
+}
+.percentage{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size:7em;
+    transition: all 2s;
+    font-weight: 400;
+}
+#percentage_text{
+    color: #3f3a3af8;
+
+}
+svg{
+    position: relative;
+    width: 220px;
+    height: 220px;
+    z-index: 1000;
+}
+svg circle{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: rgb(46, 44, 44);
+    stroke-width: 2px;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+    transition: all 2s;
+}
+svg circle:nth-child(2){
+    stroke-dasharray: 630;
+    stroke-dashoffset: 630;
+}
+svg circle:nth-child(2){
+    stroke:#5c5b5b;
+}
+.secondpage{
+    background-color: white;
+    color: black;
+}
+.first{
+    padding-top: 60px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+}
+#firstimg{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    width: 350px;
+    height: 200px;
+/* animation: img1 2s ; */
+}
+
+#paragraph{
+    display: inline-block;
+    width: 800px;
+}
+
+#secondimg{
+    display: block;
+    padding-top: 30px;
+    margin-left: 500px;
+    height: 200px;
+    width: 800px;
+}
+#thirdimg{
+    display: block;
+    padding-top: 30px;
+    margin-left: 750px;
+    height: 200px;
+    width: 600px;
+}
+
+/* this is the white page three images */
+@keyframes img1{
+  0%{
+margin-left: 350px;
+width: 0px;
+  }  
+  100%{
+      margin-left: 30px;
+      width: 350px;
+  }
+}
+@keyframes img2{
+  0%{
+   width: 0px;
+  }  
+  100%{
+ width: 800px;
+  }
+}
+@keyframes img3{
+  0%{
+      width: 0px;
+      margin-left: 1300px;
+    }  
+    100%{
+      width: 600px;
+      margin-left: 750px;
+  }
+}

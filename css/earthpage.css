@@ -1,0 +1,132 @@
+body {
+    background-color: #111;
+    font-family: 'Anton', sans-serif;
+}
+#smalltxt{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    color: white;
+}
+#line{
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+}
+#down{
+    position: absolute;
+    bottom: 15px;
+    left: 740px;
+    color:white;
+    cursor: pointer;
+}
+#rrtext{
+    color: white;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 300px;
+    right: 30px;
+    width: 300px;
+}
+#arrow{
+    color: white;
+    position: absolute;
+    bottom: 60px;
+    left: 100px;
+}
+#bluebut{
+    position: absolute;
+    bottom: 120px;
+    left: 900px;
+    background-color: blue;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#line1{
+    width: 500px;
+    height: 5px;
+    background-color: white;
+}
+#line2{
+    position: absolute;
+    left: 400px;
+    bottom: 0px;
+    width: 200px;
+    height: 5px;
+    background-color: rgb(65, 62, 62);
+}
+#menuicon{
+    position: absolute;
+    top: 20px;
+    left: 1200px;
+}
+#rtxt{
+    position: absolute;
+    bottom: 10px;
+    left: 900px;
+    transform: rotate(270deg);
+    color: white;
+    font-size: 3em;
+}
+.border{
+    margin: 3px;
+    padding: 0;
+    height: 5px;
+    width: 35px;
+    background-color: white;
+}
+
+#list{
+    position: absolute;
+    top: 15px;
+    left: 870px;
+    color: white;
+    list-style-type: none;
+    
+}
+li{
+    list-style: none;
+}
+#search{
+    position: absolute;
+    top: 30px;
+    left: 670px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+  #bigtext{
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      color: white;
+      font-size: 4rem;
+  }
+  #earth {
+    position: absolute;
+    right: 350px;
+    top: 100px;
+    width: 350px;
+    height: 350px;
+    background: url('/img/earth.jpg');
+    border-radius: 50%;
+    background-size: 660px;
+    box-shadow: inset 8px 36px 80px 36px rgb(0, 0, 0), inset -6px 0 12px 4px rgba(0, 0, 0, 0.3);
+    animation-name: rotate;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   box-shadow: 3px 3px 30px 0px rgb(76, 75, 75);
+  }
+  @keyframes rotate {
+    from {
+      background-position: 0px 0px;
+    }
+    to {
+      background-position: 610px 0px;
+    }
+  }
+  
