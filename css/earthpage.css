@@ -111,7 +111,7 @@ li{
     top: 100px;
     width: 350px;
     height: 350px;
-    background: url('./img/earth.jpg');
+    background: url('../img/earth.jpg');
     border-radius: 50%;
     background-size: 660px;
     box-shadow: inset 8px 36px 80px 36px rgb(0, 0, 0), inset -6px 0 12px 4px rgba(0, 0, 0, 0.3);
