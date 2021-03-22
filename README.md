@@ -3,4 +3,4 @@ fork file and get the code of this page.
 
 
 
-![Image of Yaktocat](./img/output.png)
+![Image of Yaktocat](../img/output.png)
